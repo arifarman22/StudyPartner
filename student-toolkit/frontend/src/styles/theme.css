@@ -1,0 +1,25 @@
+.glass-effect {
+  background: rgba(45, 45, 63, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #8A2BE2 0%, #4169E1 50%, #FF10F0 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #8A2BE2 0%, #4169E1 50%, #FF10F0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(138, 43, 226, 0.3);
+}
